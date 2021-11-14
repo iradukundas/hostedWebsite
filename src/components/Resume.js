@@ -214,7 +214,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            coming soon
+            coming soon2
           </Typography>
         </Box>
       </Box>
