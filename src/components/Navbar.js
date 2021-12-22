@@ -12,7 +12,9 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Avatar from "@material-ui/core/Avatar";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
-import ArrowBack from "@material-ui/icons/ArrowBack";
+
+import MenuIconOpenIcon from '@material-ui/icons/MenuOpen';
+
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
@@ -52,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
-  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
+  { listIcon: <Apps />, listText: "Projects", listPath: "/portfolio" },
   { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
@@ -91,7 +93,7 @@ const Navbar = () => {
         <AppBar position="static" className={classes.appbar}>
           <Toolbar>
             <IconButton onClick={() => setOpen(true)}>
-              <ArrowBack className={classes.arrow} />
+              <MenuIconOpenIcon className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
               Portfolio

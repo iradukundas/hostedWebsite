@@ -10,7 +10,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
+import project1 from "../images/discord.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
@@ -28,12 +28,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const projects = [
+const projects = 
+[
   {
-    name: "Project 1",
-    description: `Coming soon`,
+    name: "TFT Discord Bot",
+    description: `Designed and deployed data retrieving bot for favorite game on the Discord platform. esigned and deployed data retrieving bot for favorite game on the Discord platform. `,
     image: project1,
-  },
+  }
+]
+  /*
+  ,
   {
     name: "Project 2",
     description: `Coming soon`,
@@ -60,6 +64,11 @@ const projects = [
     image: project6,
   },
 ];
+*/
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+  if (newWindow) newWindow.opener = null
+}
 
 const Portfolio = () => {
   const classes = useStyles();
@@ -87,12 +96,10 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" onClick={() => openInNewTab('https://www.github.com/iradukundas')} >
+                  Github
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
-                </Button>
+    
               </CardActions>
             </Card>
           </Grid>

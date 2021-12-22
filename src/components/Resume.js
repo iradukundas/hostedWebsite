@@ -114,39 +114,40 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Experience
+        EXPERIENCE
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2020
-        </Typography>
+          2021
+        </Typography >
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-            web design
+          Photo/Video Editor
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+          Develop professional-grade photographs based on customer’s specifications. Publish said photos based on scheduled time.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
+            href={"https://google.com"} //attemping to make the word githHub clicable
           >
-            coming soon
+            OCT 2021 - Present
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2021
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -171,7 +172,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2022
+          2023
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -196,7 +197,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2023
+          2024
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
