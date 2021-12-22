@@ -36,7 +36,7 @@ const projects =
     image: project1,
   }
 ]
-  /*
+  /* for later
   ,
   {
     name: "Project 2",
