@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc1fea4df9c03f2e03ded2d98816cf16",
+    "revision": "af1caab48e6a651cd26673f6703e5fa5",
     "url": "/index.html"
   },
   {
-    "revision": "6c776e1f530ee9c795fc",
+    "revision": "c015c649792f0553cdbf",
     "url": "/static/css/main.015e39d6.chunk.css"
   },
   {
-    "revision": "f6d07d04b20aff809bca",
-    "url": "/static/js/2.e50fcf5e.chunk.js"
+    "revision": "285318d486ea43f87644",
+    "url": "/static/js/2.879f4b33.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/static/js/2.e50fcf5e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.879f4b33.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c776e1f530ee9c795fc",
-    "url": "/static/js/main.aec2d521.chunk.js"
+    "revision": "c015c649792f0553cdbf",
+    "url": "/static/js/main.42842aca.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/coffee-apple.2dd213aa.jpg"
   },
   {
-    "revision": "2c7701aae07adecdb0a7e336dff08def",
-    "url": "/static/media/html-css-javascript.2c7701aa.jpg"
+    "revision": "60edf606de52cf48734348831d00503f",
+    "url": "/static/media/iradukunda.60edf606.jpg"
   },
   {
     "revision": "730958a228d26dee011c5aa0aa3c3db9",
