@@ -11,7 +11,7 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
 import project1 from "../images/discord.jpg";
-import project2 from "../images/html-css-javascript.jpg";
+import project2 from "../images/iradukunda.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
@@ -34,15 +34,16 @@ const projects =
     name: "TFT Discord Bot",
     description: `Designed and deployed data retrieving bot for favorite game on the Discord platform. esigned and deployed data retrieving bot for favorite game on the Discord platform. `,
     image: project1,
+  },
+  {
+    name: "Iradukunda.net",
+    description: `Designed the website’s front UI. Programmed the portfolio using React, HTML, and CSS. Deployed the website using GitHub Pages  `,
+    image: project2,
   }
 ]
-  /* for later
+  /*
   ,
-  {
-    name: "Project 2",
-    description: `Coming soon`,
-    image: project2,
-  },
+ 
   {
     name: "Project 3",
     description: `Coming soon`,
