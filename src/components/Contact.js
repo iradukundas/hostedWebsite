@@ -44,7 +44,7 @@ function sendEmail(e) {
   emailjs.sendForm('service_7a18tuc', 'template_bgvseof', e.target, 'user_kupP9f9GMYQtUTPx9tBVq')
   .then((result) => {
   console.log(result.text);
-  this.type.replace('Your message has been sent.')
+  this.endIcon.replace('Your message has been sent.')
   }, (error) => {
   console.log(error.text);
   });
