@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.b1204bcd.chunk.css",
-    "main.js": "/static/js/main.3821cf16.chunk.js",
-    "main.js.map": "/static/js/main.3821cf16.chunk.js.map",
+    "main.js": "/static/js/main.8987c82f.chunk.js",
+    "main.js.map": "/static/js/main.8987c82f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.e35439ac.chunk.js": "/static/js/2.e35439ac.chunk.js",
     "static/js/2.e35439ac.chunk.js.map": "/static/js/2.e35439ac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.046190b9575b6c4a1886db461c5d57bd.js": "/precache-manifest.046190b9575b6c4a1886db461c5d57bd.js",
+    "precache-manifest.574f9f58e61a291a44063943260ccf83.js": "/precache-manifest.574f9f58e61a291a44063943260ccf83.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.b1204bcd.chunk.css.map": "/static/css/main.b1204bcd.chunk.css.map",
     "static/js/2.e35439ac.chunk.js.LICENSE.txt": "/static/js/2.e35439ac.chunk.js.LICENSE.txt",
-    "static/media/Samuel_Iradukunda_Resume.pdf": "/static/media/Samuel_Iradukunda_Resume.a42ae781.pdf",
+    "static/media/Samuel_Iradukunda_Resume.pdf": "/static/media/Samuel_Iradukunda_Resume.5a2ffe51.pdf",
     "static/media/avatar.png": "/static/media/avatar.01c218cf.png",
     "static/media/App.css": "/static/media/coffee-apple.2dd213aa.jpg",
     "static/media/iradukunda.jpg": "/static/media/iradukunda.60edf606.jpg"
@@ -21,6 +21,6 @@
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.e35439ac.chunk.js",
     "static/css/main.b1204bcd.chunk.css",
-    "static/js/main.3821cf16.chunk.js"
+    "static/js/main.8987c82f.chunk.js"
   ]
 }
