@@ -12,10 +12,6 @@ import Typography from "@material-ui/core/Typography";
 
 import project1 from "../images/discord.jpg";
 import project2 from "../images/iradukunda.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {

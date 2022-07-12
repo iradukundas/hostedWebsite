@@ -6,11 +6,12 @@ import Box from "@material-ui/core/Box";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
+import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   avatar: {
-    width: theme.spacing(15),
-    height: theme.spacing(15),
+    width: theme.spacing(20),
+    height: theme.spacing(20),
     margin: theme.spacing(1),
   },
   title: {
@@ -57,19 +58,18 @@ const Header = () => {
       <Typography className={classes.title} variant="h4">
         <Typed strings={["Samuel Iradukunda"]} typeSpeed={40} />
       </Typography>
-
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
             "Aspiring Software Engineer",
-            "CSE Student",
-            "Coffee Lover"
+            "Computer Science Student",
           ]}
           typeSpeed={40}
           backSpeed={45}
           loop
         />
       </Typography>
+      <Footer />
     </Box>
     
   );

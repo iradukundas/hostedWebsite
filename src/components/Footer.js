@@ -9,14 +9,27 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 const useStyles = makeStyles({
   bottomNavContainer: {
-    background: "#222",
+    background: "transparent",
   },
-  root: {
+
+  root1:{
+    paddingRight: 100,
     "& .MuiSvgIcon-root": {
       fill: "tan",
       "&:hover": {
         fill: "tomato",
-        fontSize: "1.8rem",
+        fontSize: "x-large",
+      },
+    },
+  },
+  root: {
+    justifyContent: 'center',
+    paddingLeft: 100,
+    "& .MuiSvgIcon-root": {
+      fill: "tan",
+      "&:hover": {
+        fill: "tomato",
+        fontSize: "x-large",
       },
     },
   },
@@ -31,8 +44,8 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction icon={<LinkedInIcon />} onClick={() => openInNewTab('https://www.linkedin.com/in/samuel-iradukunda-77aa90198/')} className={classes.root}/>
-      <BottomNavigationAction icon={<GitHubIcon />} onClick={() => openInNewTab('https://github.com/iradukundas')} className={classes.root} />
+      <BottomNavigationAction icon={<LinkedInIcon fontSize= "large"/>}  onClick={() => openInNewTab('https://www.linkedin.com/in/samuel-iradukunda-77aa90198/')} className={classes.root}/>
+      <BottomNavigationAction icon={<GitHubIcon fontSize= "large"/>} onClick={() => openInNewTab('https://github.com/iradukundas')} className={classes.root1} />
     </BottomNavigation>
   );
 

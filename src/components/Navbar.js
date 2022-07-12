@@ -12,17 +12,13 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Avatar from "@material-ui/core/Avatar";
 import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
-
 import MenuIconOpenIcon from '@material-ui/icons/MenuOpen';
-
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
-
-import Footer from "../components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -31,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
   },
   arrow: {
     color: "tomato",
+    fontSize: "100",
   },
   title: {
     color: "tan",
@@ -103,7 +100,6 @@ const Navbar = () => {
       </Box>
       <Drawer open={open} anchor="left" onClose={() => setOpen(false)}>
         {sideList()}
-        <Footer />
       </Drawer>
     </React.Fragment>
   );

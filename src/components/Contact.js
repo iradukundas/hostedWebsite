@@ -9,6 +9,7 @@ import emailjs from "emailjs-com";
 import SendIcon from "@material-ui/icons/Send";
 
 
+
 const useStyles = makeStyles((theme) => ({
   contactContainer: {
     background: "#233",
@@ -39,8 +40,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+
+
 function sendEmail(e) {
   e.preventDefault();
+  e.target.reset();
   emailjs.sendForm('service_7a18tuc', 'template_bgvseof', e.target, 'user_kupP9f9GMYQtUTPx9tBVq')
   .then((result) => {
   console.log(result.text);
@@ -48,8 +52,6 @@ function sendEmail(e) {
   console.log(error.text);
   });
   }
-
-
 
 const InputField = withStyles({
   root: {
@@ -74,6 +76,7 @@ const InputField = withStyles({
   },
 })(TextField);
 
+
 const Contact = () => {
   const classes = useStyles();
   return (
@@ -81,21 +84,21 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form} >
           <Typography variant="h5" className={classes.heading}>
-            Contact me..
+            Send me a message!
           </Typography>
           <form onSubmit={sendEmail}>
                       <InputField
                             className="form"
-                            type="text" placeholder="Name" name="name"
+                            type="text" placeholder="i.e Samuel Iradukunda" name="name"
                             fullWidth={true}
                             variant = "outlined"
                             inputProps = {{ className: classes.input }}
-                            label = "Name"
+                            label = "Your Name"
                       />
 
                         <InputField 
                             className="form"
-                            type="text" placeholder="Email" name="email"
+                            type="text" placeholder="i.e iradukuunda@gmail.com" name="email"
                             fullWidth={true}
                             variant = "outlined"
                             inputProps = {{ className: classes.input }}
@@ -104,7 +107,7 @@ const Contact = () => {
                         />
                         <InputField 
                             className="form"
-                            type="text" placeholder="Subject" name="subject"
+                            type="text" placeholder="i.e Meeting" name="subject"
                             fullWidth={true}
                             variant = "outlined"
                             inputProps = {{ className: classes.input }}
@@ -112,6 +115,7 @@ const Contact = () => {
                         />
                         <InputField 
                             className="form"
+                            placeholder="i.e Let's chat sometime"
                             name="message"
                             fullWidth={true}
                             variant = "outlined"
